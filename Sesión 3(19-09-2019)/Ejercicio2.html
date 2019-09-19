@@ -5,7 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Ejercicio 2</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            padding: 1em;
+            border: 1px dashed black;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,6 +29,34 @@
 
     <p>Éste párrafo es un elemento de bloque. <span style="color: red">Este span, que está dentro del párrafo, es un
             elemeno de línea.</span>El párrafo termina aquí</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Holden</td>
+                <td>Ford</td>
+            </tr>
+            <tr>
+                <td>Bill</td>
+                <td>Tench</td>
+            </tr>
+            <tr>
+                <td>Wendy</td>
+                <td>Carr</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><i>Producción</i></td>
+                <td><i>Netflix</i></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
