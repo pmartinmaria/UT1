@@ -22,6 +22,25 @@
             Campo de texto 2: <input type="text" id="campoTexto2Id" name="campoTexto2"><br>
         </fieldset>
     </form>
+    <h2>Formulario sencillo 2 en HTML5</h2>
+    <form name="Formulario2" id="Formulario2Id" method="" action="">
+        <fieldset>
+            <legend>Formulario básico 2 con labels</legend>
+            <label for="idcampo3" id="etiqueta1">Introduce el nombre del usuario: </label>
+            <input type="text" id="idcampo3" name="campotexto3" placeholder="Aquí va el nombre de usuario"><br>
+            <h3>Campos de tipo datalist</h3>
+            <label for="listaSSOOInput" id="etiqueta2">Lista de SSOO: </label>
+            <input list="listaSSOO" id="listaSSOOInput">
+            <datalist id="listaSSOO">
+                <option value="windows 10 H2 2019">windows 10 H2 2019</option>
+                <option value="Ubuntu 20.04">Ubuntu 20.04</option>
+                <option value="Debian 10.0 Buster">Debian 10.0 Buster</option>
+            </datalist>
+            <h3>Elementos de tipo botón</h3>
+            <input type="button" onclick="alert('Hola a todo@')" value="Saludar" id="elemetoBoton1">
+            <input type="reset" value="Limpiar campos del formulario 2" idn="botonReset1">
+        </fieldset>
+    </form>
 </body>
 
 </html>
