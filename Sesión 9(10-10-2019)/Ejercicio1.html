@@ -5,13 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ejercicio 1 - Sesiçon 9</title>
+    <title>Ejercicio 1 - Sesión 9</title>
 </head>
 
 <body>
     <h1>Resto de elementos HTML5</h1>
     <h2>Elementos div: es un elemento de bloque</h2>
     <div>Esto es una capa. Se utiliza para estructurar el contenido de la página web</div>
+
+    <h2>Elemento audio</h2>
+    <audio id="audio1Id" controls>
+        <source src="Audio/ROSALÍA, Ozuna - Yo x Ti, Tu x Mi (Official Video).mp3" type="audio/mp3">
+    </audio>
+
+    <h2>Elemento de tipo progress</h2>
+    <progress max="100" value="33"></progress>
+    <h2>Elemento de tipo canvas</h2>
+    <canvas id="canvas1Id" width="300" height="150" style="border: 1px solid black;">
+        Tu navegador no soporta en elemento canvas
+    </canvas>
+    <script>
+        canvas=document.getElementById("canvas1Id");
+        contexto=canvas.getContext("2d");
+        contexto.fillStyle="#FF0000";
+        contexto.fillRect(10,10,150,75);
+    </script>
 </body>
 
 </html>

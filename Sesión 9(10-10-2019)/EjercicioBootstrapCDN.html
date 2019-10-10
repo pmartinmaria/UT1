@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio con bootstrap</title>
+    <!-- Bootstrap CSS Mediante CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .rojo {
+            background-color: red;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .imagen {
+            width: 300px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        Un contendor responsivo de ancho fijo
+    </div>
+    <div class="container-fluid">
+        Un contenedor responsivo con ancho completo
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">Comlumna de tamaño 4 para dispositivos pequeños</div>
+        <div class="col-sm-4">Comlumna de tamaño 4 para dispositivos pequeños</div>
+        <div class="col-sm-4">Comlumna de tamaño 4 para dispositivos pequeños</div>
+    </div>
+
+    <h2>Distribuciones adapatables a diferenetes dispositivos</h2>
+    <div class="row">
+        <div class="col-6 col-sm-9 bg-primary">Col 6 o col 9</div>
+        <div class="col-6 col-sm-3 bg-dark">Col 6 o col 3</div>
+    </div>
+    <kbd>Escritura tipo teclado</kbd>
+    <mark>Texto resaltado</mark>
+    <div class="display-3">Encabezado h2 con la clase display-3</div>
+    <div class="text-warning">Cita de texto con la clase text-warning</div>
+    <div class="imagen">
+        <img src="Images/10392452_10152915249741672_5874658114693588275_n.jpg" class="img-fluid rounded" alt="">
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Ciclo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pablo</td>
+                <td>Martín María</td>
+                <td>DAW 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Sos iniputable</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
